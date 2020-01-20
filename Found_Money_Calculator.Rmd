@@ -11,7 +11,7 @@ output: html_document
 
 ```{r clean data, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 #import data to data frame
-dat <- read.csv("Checking_2019.csv", header = TRUE, stringsAsFactors = FALSE)
+dat <- read.csv("DataSample2019.csv", header = TRUE, stringsAsFactors = FALSE)
 
 #clean date
 library ('stringr')
